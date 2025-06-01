@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BenStream</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>BenStream</h1>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search videos...">
+    </div>
+    <button class="login-btn" onclick="alert('Login feature coming soon!')">Login</button>
+  </header>
+
+  <div class="container" id="videoContainer">
+    <div class="video-card" data-title="My First Stream">
+      <img src="thumbnail1.jpg" alt="Thumbnail 1">
+      <h3>My First Stream</h3>
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="video-card" data-title="Another Episode">
+      <img src="thumbnail2.jpg" alt="Thumbnail 2">
+      <h3>Another Episode</h3>
+      <video controls>
+        <source src="video2.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="video-card" data-title="Behind The Scenes">
+      <img src="thumbnail3.jpg" alt="Thumbnail 3">
+      <h3>Behind The Scenes</h3>
+      <video controls>
+        <source src="video3.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
